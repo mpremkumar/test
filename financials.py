@@ -107,7 +107,7 @@ urls= [
 'https://www.marketsmojo.com/Stocks?StockId=941607&Exchange=0'
 ]
 f= open("finance1.txt","a+")
-browser=webdriver.Chrome()
+browser=webdriver.Firefox()
 browser.maximize_window()
 for url in urls:
 	browser.get(url)
