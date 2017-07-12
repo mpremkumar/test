@@ -109,8 +109,6 @@ urls= [
 f= open("finance1.txt","a+")
 browser=webdriver.Chrome()
 browser.maximize_window()
-browser.get('http://www.marketsmojo.com/Stocks?StockId=565016&Exchange=0')
-browser.find_element_by_xpath("//*[@id='step-0']/a/i").click()
 for url in urls:
 	browser.get(url)
 	browser.execute_script("window.scrollTo(0,7600);")
