@@ -1,0 +1,4 @@
+projects:
+default: financials.py
+
+requirements_file: requirements.txt
